@@ -1,0 +1,76 @@
+/* Estilo personalizado para el formulario */
+#contenido_agenda {
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 10px;
+}
+/* Estilos para reducir el ancho de las barras de entrada */
+.form-control {
+    border-radius: 10px;
+    border-color: aqua;
+}
+body::before {
+    content: "";
+    background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/07/13/cute-kawaii-calculator-cartoon-Graphics-74438476-2-580x340.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1; /* Ajusta este valor para cambiar la opacidad (de 0 a 1, donde 0 es completamente transparente y 1 es completamente opaco) */
+    z-index: -1; /* Para asegurarse de que la imagen de fondo esté detrás de otros elementos */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+
+
+.btn-primary {
+    margin-top: 20px; /* Ajusta el margen superior del botón */
+}
+#contenido_agenda {
+    width: 70%; /* Ajusta el ancho de la barra */
+    margin: 0 auto; /* Centra la barra horizontalmente */
+}
+.botones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-custom {
+    width: calc(50% - 5px); /* 50% del ancho del contenedor - 5px de espacio entre botones */
+}
+.col-3 button {
+    width: 100%; /* Asigna el ancho completo a los botones */
+    margin-bottom: 5px; /* Agrega espacio entre los botones */
+}
+
+
+#textoBonito{
+    font-size: 19px; /* Puedes ajustar el tamaño según tus preferencias */
+    font-weight: bold; /* Esto hará que el texto sea más negrita */
+
+}
+#textoDescripcion{
+    font-size: 18px; /* Puedes ajustar el tamaño según tus preferencias */
+    font-style: italic; /* Esto hará que el texto sea más negrita */
+
+}
